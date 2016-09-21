@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sequences sunburst</title>
+    <script src="js/d3.v3.min.js"></script>
+<!--
+    <link rel="stylesheet" type="text/css"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600">
+-->
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <div id="main">
+      <h1>Myanmar Union Level Budget</h1>
+      <div id="selector">
+      Select financial year: <select id="yearSelector"></select>
+      </div> 
+       
+      <div id="titles">
+        <h1 style="float: left;"> Incomes</h1>
+        <h1 style="float: right;"> Expenditures</h1>
+      </div>
+      <div id="sequence"></div>
+      <div id="chart">
+        <div id="explanation1" style="visibility: hidden;">
+          <span id="percentage1"></span><br/>
+          of union budget's income is from this subcategory
+        </div>
+        <div id="explanation2" style="visibility: hidden;">
+          <span id="percentage2"></span><br/>
+          of union budget is spent on this subcategory
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="sequences.js"></script>
+    <script type="text/javascript">
+      // Hack to make this example display correctly in an iframe on bl.ocks.org
+      d3.select(self.frameElement).style("height", "700px");
+  </script> 
+  </body>
+</html>

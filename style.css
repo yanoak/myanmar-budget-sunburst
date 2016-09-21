@@ -1,0 +1,104 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  background-color: #fff;
+  width: 960px;
+  height: 400px;
+  margin-top: 10px;
+}
+
+#main {
+  float: left;
+  width: 900px;
+}
+
+
+#sequence {
+  width: 900px;
+  height: 150px;
+}
+
+#titles {
+  width: 800px;
+  height: 50px;
+}
+
+
+
+h1 {
+  position: relative;
+  width: 400px;
+  color: #666;
+  font-weight: normal;
+  font-size: 2.5em;
+}
+
+.selector {
+  position: relative;
+  color: #666;
+  font-weight: normal;
+  font-size: 1.5em;
+}
+
+.titleText {
+  position: relative;
+  text-align: center;
+  width: 400px;
+  color: #666;
+  font-weight: normal;
+  font-size: 2.5em;
+}
+
+#legend {
+  padding: 10px 0 0 3px;
+}
+
+#sequence text, #legend text {
+  font-weight: 600;
+  fill: #fff;
+}
+
+
+#endlabel {
+  font-size: 14px;
+}
+
+#chart {
+  position: relative;
+}
+
+#chart path {
+  stroke: #fff;
+}
+
+#explanation1 {
+  position: absolute;
+  top: 160px;
+  left: 130px;
+  width: 140px;
+  text-align: center;
+  color: #666;
+  z-index: -1;
+}
+
+#explanation2 {
+  position: absolute;
+  top: 160px;
+  left: 530px;
+  width: 140px;
+  text-align: center;
+  color: #666;
+  z-index: -1;
+}
+
+#percentage1, #percentage2  {
+  font-size: 2.5em;
+}
+
+
+#yearSelector {
+  height: 25px;
+  width: 150px;
+  margin-bottom: 0px;
+}
